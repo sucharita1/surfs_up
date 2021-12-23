@@ -7,11 +7,11 @@ While on vacation to Hawaii last year we have been trying to come up with a plan
 W. Avy is an investor who is an avid surfer and likes our idea. But, he wants more information about temperature trends before opening the surf shop. Specifically, he wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Resources
-* Data Source: [Oahu_Weather_details](https://github.com/sucharita1/surfs_up/blob/32665b9d431365df56dd64602ec665b0ce3ae0cb/hawaii.sqlite)
+* Data Source: [Oahu_Weather_details sqlite](https://github.com/sucharita1/surfs_up/blob/32665b9d431365df56dd64602ec665b0ce3ae0cb/hawaii.sqlite)
 * Software: Python 3.7.10, Jupyter notebook 6.3.0
 
 ## Results:
-The results of the temperature data for the month of June and December show the following differences:
+The results as seen from [SurfsUp_Challenge.ipynb](https://github.com/sucharita1/surfs_up/blob/8b8d76769730e6394c97a3eec8dec9b3082ccefa/SurfsUp_Challenge.ipynb) jupyter notebook of the temperature data for the month of June and December show the following differences:
 1. There are 1700 records for the month of June while only 1517 records for the month of december. Maybe one of the stations was closed during the month of december or there was some issue on certain dates or at certain stations. 
 
 ![Jun_tobs](https://github.com/sucharita1/surfs_up/blob/32665b9d431365df56dd64602ec665b0ce3ae0cb/Resources/Jun_tobs.png?raw=true)
@@ -46,6 +46,6 @@ We can see from the histogram that temperature at USC00519281 station in Oahu wa
 
 We can see that the weather was most comfortable i.e. between 72 degrees and 83 degrees in June for 22 days and in December for 12 days.
 
-So, we can see that temperatures are quiet reliable and predictable in Oahu even December month has some good days. Looks like a Surf n' Shake shop might be soon on the cards.
+Finally , we can see that temperatures are quiet reliable and predictable in Oahu even December month has some good days. Looks like a Surf n' Shake shop might be soon on the cards.
 
 
